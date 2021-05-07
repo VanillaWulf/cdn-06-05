@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "latto";
+    src: url(../fonts/lato-bold.woff) format("woff"),
+    url(../fonts/lato-bold.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latto';
+    src: url(../fonts/lato-light.woff) format("woff"),
+    url(../fonts/lato-light.woff2) format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: "latto", 'Arial', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #220a71;
+    border-color: #220a71;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #0a7113;
+    border-color: #0a7113; 
+}
+
+.height-350 {
+    height: 350px;
+}
+
+.bkg-light-green {
+    background-color: lightgreen;
+}
+
+.font-size-50 {
+    font-size: 50px;
+}
+
+.red {
+    color: red;
+}
+
+.border {
+    border: 1px solid;
+}
